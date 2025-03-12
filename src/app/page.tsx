@@ -6,7 +6,7 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
-          src="/name_logo.png"
+          src="/name_logo.svg"
           alt="Name logo"
           width={180}
           height={40}
@@ -46,55 +46,54 @@ export default function Home() {
               width={20}
               height={20}
             />
-            Faaltu
+              Faaltu
           </a>
         </div>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             aria-hidden
-            src="/file.svg"
-            alt="File icon"
+            src="/call.png"
+            alt="Call icon"
             width={16}
             height={16}
           />
-          Learn
+          Contact: +919717970475
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://www.linkedin.com/in/shariquehussain-/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             aria-hidden
-            src="/window.svg"
-            alt="Window icon"
+            src="/linkedin.svg"
+            alt="linkedin icon"
             width={16}
             height={16}
           />
-          Examples
+          LinkedIn
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+          href="https://www.instagram.com/shariquehussain_/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
+            src="/instagram.svg"
+            alt="insta icon"
             width={16}
             height={16}
           />
-          Go to nextjs.org →
+          Instagram
         </a>
       </footer>
     </div>
