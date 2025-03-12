@@ -39,6 +39,13 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
+            <Image
+              className="dark:invert"
+              src="/cross.png"
+              alt="Cross logo"
+              width={20}
+              height={20}
+            />
             Faaltu
           </a>
         </div>
